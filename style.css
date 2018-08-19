@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(75, 108, 149);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.alert-danger{
+    background-color: #f763f7;
+    color: #000;
+}
+
+.alert-success{
+    background-color: #f7f879;
+    color: #000;
+}
+
+.navbar {
+    background-color: rgb(67, 87, 111);
+    display: flex;
+    align-content: center;
+}
+
+.nav-text {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: auto 0;
+}
+
+.logo {
+    width: 3rem;
+    
+  }
+
+.btn-grey{
+    background-color: rgb(67, 87, 111);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-bottom: 2em;
+}
+
+#message {
+    height: 10rem;
+}
+
+@media screen and (max-width: 500px){
+    .nav-text {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 2rem;
+        
+      }
+
+}
+
+@media screen and (min-width: 768px){
+    
+#name, #email {
+    width: 75%;
+}
+
+#message {
+  width: 100%;
+  height: 11rem;
+}
+}
+
+@media screen and (min-width: 992px){
+    
+    #name, #email {
+        width: 50%;
+    }
+    
+    #message {
+      width: 80%;
+      height: 12rem;
+    }
+    }
+
+@media screen and (min-width: 1200px){
+    
+        #name, #email {
+            width: 40%;
+        }
+        
+
+  .btn-grey {
+    background-color: rgb(67, 87, 111);
+    color: #ffffff;
+  }
+  }
